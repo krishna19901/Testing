@@ -1,4 +1,9 @@
 this is my first commit
+<<<<<<< HEAD
 this is my second commit
 this is my third commit
 this is my fourth commit
+=======
+
+this is my second commit
+>>>>>>> 55988e4314f9c556b21efe682bec17f7c1489aa1
