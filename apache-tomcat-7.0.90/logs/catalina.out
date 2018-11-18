@@ -1,0 +1,883 @@
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-693.21.1.el7.x86_64
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:54:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Aug 13, 2018 9:54:35 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 13, 2018 9:54:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 13, 2018 9:54:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 13, 2018 9:54:36 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1958 ms
+Aug 13, 2018 9:54:36 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 13, 2018 9:54:36 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Aug 13, 2018 9:54:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Aug 13, 2018 9:54:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 1,149 ms
+Aug 13, 2018 9:54:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Aug 13, 2018 9:54:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 211 ms
+Aug 13, 2018 9:54:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Aug 13, 2018 9:54:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 763 ms
+Aug 13, 2018 9:54:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Aug 13, 2018 9:54:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 706 ms
+Aug 13, 2018 9:54:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Aug 13, 2018 9:54:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 165 ms
+Aug 13, 2018 9:54:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 13, 2018 9:54:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 13, 2018 9:54:39 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3203 ms
+Aug 13, 2018 9:56:46 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 13, 2018 9:56:46 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Aug 13, 2018 9:56:47 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Aug 13, 2018 9:56:47 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 13, 2018 9:56:47 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Aug 13, 2018 9:56:47 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Aug 13, 2018 9:56:47 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Aug 13, 2018 9:56:47 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-693.21.1.el7.x86_64
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Aug 13, 2018 9:56:55 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 13, 2018 9:56:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 13, 2018 9:56:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 13, 2018 9:56:55 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1665 ms
+Aug 13, 2018 9:56:55 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 13, 2018 9:56:55 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Aug 13, 2018 9:56:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Aug 13, 2018 9:56:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 1,050 ms
+Aug 13, 2018 9:56:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Aug 13, 2018 9:56:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 217 ms
+Aug 13, 2018 9:56:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Aug 13, 2018 9:56:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 759 ms
+Aug 13, 2018 9:56:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Aug 13, 2018 9:56:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 443 ms
+Aug 13, 2018 9:56:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Aug 13, 2018 9:56:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 141 ms
+Aug 13, 2018 9:56:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 13, 2018 9:56:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 13, 2018 9:56:58 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2873 ms
+Aug 13, 2018 10:15:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war
+Aug 13, 2018 10:15:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war has finished in 320 ms
+Aug 13, 2018 1:54:13 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war
+Aug 13, 2018 1:54:34 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13:54:40.410 [localhost-startStop-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:54:41.910 [localhost-startStop-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:54:42.104 [localhost-startStop-3] INFO  g.core.servlet.InitializeListener - Check version
+13:54:42.105 [localhost-startStop-3] INFO  g.core.servlet.InitializeListener - Start schema update
+13:54:53.853 [localhost-startStop-3] INFO  g.core.servlet.InitializeListener - Extract bundled plugins...
+13:54:53.858 [localhost-startStop-3] INFO  g.core.servlet.InitializeListener - Extract to /home/vagrant/.gitbucket/plugins/gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+13:54:53.932 [localhost-startStop-3] INFO  g.core.servlet.InitializeListener - Initialize plugins
+13:54:54.201 [localhost-startStop-3] INFO  gitbucket.core.plugin.PluginRegistry - Initialize gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+13:54:55.870 [Thread-4] INFO  g.core.plugin.PluginWatchThread - Start PluginWatchThread: /home/vagrant/.gitbucket/plugins
+13:54:55.913 [localhost-startStop-3] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:54:55.914 [localhost-startStop-3] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+13:54:55.935 [localhost-startStop-3] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+13:54:55.938 [localhost-startStop-3] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'QuartzScheduler~job' with instanceId 'job'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:54:55.938 [localhost-startStop-3] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler 'QuartzScheduler~job
+13:54:55.938 [localhost-startStop-3] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler version: 2.2.3
+13:54:55.940 [localhost-startStop-3] INFO  org.quartz.core.QuartzScheduler - Scheduler QuartzScheduler~job_$_job started.
+[INFO] [08/13/2018 13:54:55.999] [localhost-startStop-3] [[QuartzScheduler~job]] Setting up scheduled job 'Daily', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@4f201d98'
+13:54:56.080 [localhost-startStop-3] INFO  o.scalatra.servlet.ScalatraListener - The cycle class name from the config: ScalatraBootstrap
+13:54:56.100 [localhost-startStop-3] INFO  o.scalatra.servlet.ScalatraListener - Initializing life cycle class: ScalatraBootstrap
+Aug 13, 2018 1:54:58 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war has finished in 45,377 ms
+14:00:46.419 [scala-execution-context-global-59] INFO  o.c.core.Cache2kCoreProviderImpl - cache2k starting. version=1.0.1.Final, build=undefined, defaultImplementation=HeapCache
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-693.21.1.el7.x86_64
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Aug 14, 2018 3:36:05 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 14, 2018 3:36:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 14, 2018 3:36:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 14, 2018 3:36:06 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2978 ms
+Aug 14, 2018 3:36:06 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 14, 2018 3:36:06 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Aug 14, 2018 3:36:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war
+Aug 14, 2018 3:36:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war has finished in 1,369 ms
+Aug 14, 2018 3:36:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war
+Aug 14, 2018 3:36:26 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03:36:32.248 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:36:33.597 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:36:33.696 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Check version
+03:36:33.710 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Start schema update
+03:36:35.806 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract bundled plugins...
+03:36:35.845 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract to /home/vagrant/.gitbucket/plugins/gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+03:36:36.041 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Initialize plugins
+03:36:36.244 [localhost-startStop-1] INFO  gitbucket.core.plugin.PluginRegistry - Initialize gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+03:36:37.087 [Thread-3] INFO  g.core.plugin.PluginWatchThread - Start PluginWatchThread: /home/vagrant/.gitbucket/plugins
+03:36:37.227 [localhost-startStop-1] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+03:36:37.228 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+03:36:37.246 [localhost-startStop-1] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+03:36:37.249 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'QuartzScheduler~job' with instanceId 'job'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+03:36:37.249 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler 'QuartzScheduler~job
+03:36:37.249 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler version: 2.2.3
+03:36:37.254 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler QuartzScheduler~job_$_job started.
+[INFO] [08/14/2018 03:36:37.274] [localhost-startStop-1] [[QuartzScheduler~job]] Setting up scheduled job 'Daily', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@70133614'
+03:36:37.389 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - The cycle class name from the config: ScalatraBootstrap
+03:36:37.395 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - Initializing life cycle class: ScalatraBootstrap
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war has finished in 32,390 ms
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 268 ms
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 131 ms
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 1,317 ms
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 767 ms
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 153 ms
+Aug 14, 2018 3:36:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 14, 2018 3:36:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 14, 2018 3:36:43 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 37141 ms
+Aug 14, 2018 7:46:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war
+Aug 14, 2018 7:46:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war has finished in 839 ms
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-693.21.1.el7.x86_64
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 3:49:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Aug 15, 2018 3:49:38 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 15, 2018 3:49:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 15, 2018 3:49:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 15, 2018 3:49:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2790 ms
+Aug 15, 2018 3:49:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 15, 2018 3:49:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Aug 15, 2018 3:49:39 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war
+Aug 15, 2018 3:49:40 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [107] milliseconds.
+Aug 15, 2018 3:49:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war has finished in 1,291 ms
+Aug 15, 2018 3:49:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war
+Aug 15, 2018 3:49:56 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:50:03.249 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:50:04.962 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:50:05.113 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Check version
+15:50:05.113 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Start schema update
+15:50:07.472 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract bundled plugins...
+15:50:07.508 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract to /home/vagrant/.gitbucket/plugins/gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+15:50:07.614 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Initialize plugins
+15:50:07.728 [localhost-startStop-1] INFO  gitbucket.core.plugin.PluginRegistry - Initialize gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+15:50:08.422 [Thread-3] INFO  g.core.plugin.PluginWatchThread - Start PluginWatchThread: /home/vagrant/.gitbucket/plugins
+15:50:08.603 [localhost-startStop-1] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+15:50:08.603 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+15:50:08.611 [localhost-startStop-1] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+15:50:08.627 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'QuartzScheduler~job' with instanceId 'job'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+15:50:08.627 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler 'QuartzScheduler~job
+15:50:08.627 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler version: 2.2.3
+15:50:08.629 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler QuartzScheduler~job_$_job started.
+15:50:08.710 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - The cycle class name from the config: ScalatraBootstrap
+[INFO] [08/15/2018 15:50:08.661] [localhost-startStop-1] [[QuartzScheduler~job]] Setting up scheduled job 'Daily', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@46d099fc'
+15:50:08.729 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - Initializing life cycle class: ScalatraBootstrap
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war has finished in 30,619 ms
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war has finished in 182 ms
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 146 ms
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 144 ms
+Aug 15, 2018 3:50:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Aug 15, 2018 3:50:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 2,004 ms
+Aug 15, 2018 3:50:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Aug 15, 2018 3:50:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 869 ms
+Aug 15, 2018 3:50:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Aug 15, 2018 3:50:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 260 ms
+Aug 15, 2018 3:50:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 15, 2018 3:50:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 15, 2018 3:50:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 36340 ms
+16:56:18.504 [http-bio-8080-exec-4] INFO  o.c.core.Cache2kCoreProviderImpl - cache2k starting. version=1.0.1.Final, build=undefined, defaultImplementation=HeapCache
+Aug 15, 2018 7:30:50 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 15, 2018 7:30:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Aug 15, 2018 7:30:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Aug 15, 2018 7:30:50 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/gitbucket] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/gitbucket] appears to have started a thread named [job-scheduler-1] but has failed to stop it. This is very likely to create a memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/gitbucket] appears to have started a thread named [job-akka.actor.default-dispatcher-2] but has failed to stop it. This is very likely to create a memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/gitbucket] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/gitbucket] appears to have started a thread named [AKKA_QRTZ_-1] but has failed to stop it. This is very likely to create a memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/gitbucket] appears to have started a thread named [commit-count] but has failed to stop it. This is very likely to create a memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/gitbucket] appears to have started a thread named [QuartzScheduler~job_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [scala.util.DynamicVariable$$anon$1] (value [scala.util.DynamicVariable$$anon$1@3ce95797]) and a value of type [gitbucket.core.servlet.MockFilterChain] (value [gitbucket.core.servlet.MockFilterChain@603c8396]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@139592df]) and a value of type [akka.dispatch.forkjoin.ForkJoinPool.Submitter] (value [akka.dispatch.forkjoin.ForkJoinPool$Submitter@61f87938]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [akka.actor.ActorCell$$anon$1] (value [akka.actor.ActorCell$$anon$1@5e441cb2]) and a value of type [scala.collection.immutable.Nil$] (value [List()]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@116d8d14]) and a value of type [org.eclipse.jgit.nls.NLS] (value [org.eclipse.jgit.nls.NLS@1aae2a31]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@116d8d14]) and a value of type [org.eclipse.jgit.nls.NLS] (value [org.eclipse.jgit.nls.NLS@383db1e5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [scala.util.DynamicVariable$$anon$1] (value [scala.util.DynamicVariable$$anon$1@13edf867]) and a value of type [gitbucket.core.servlet.MockFilterChain] (value [gitbucket.core.servlet.MockFilterChain@569c0a4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [scala.util.DynamicVariable$$anon$1] (value [scala.util.DynamicVariable$$anon$1@13edf867]) and a value of type [gitbucket.core.servlet.MockFilterChain] (value [gitbucket.core.servlet.MockFilterChain@569c0a4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@139592df]) and a value of type [akka.dispatch.forkjoin.ForkJoinPool.Submitter] (value [akka.dispatch.forkjoin.ForkJoinPool$Submitter@570717ae]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@392abd84]) and a value of type [akka.dispatch.BatchingExecutor.BlockableBatch] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/gitbucket] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@139592df]) and a value of type [akka.dispatch.forkjoin.ForkJoinPool.Submitter] (value [akka.dispatch.forkjoin.ForkJoinPool$Submitter@1e0d9351]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 15, 2018 7:30:56 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Aug 15, 2018 7:30:56 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Aug 15, 2018 7:30:56 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Aug 15, 2018 7:30:56 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-693.21.1.el7.x86_64
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Aug 15, 2018 7:31:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Aug 15, 2018 7:31:00 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 15, 2018 7:31:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 15, 2018 7:31:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 15, 2018 7:31:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3336 ms
+Aug 15, 2018 7:31:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 15, 2018 7:31:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Aug 15, 2018 7:31:01 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war
+Aug 15, 2018 7:31:03 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+Aug 15, 2018 7:31:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war has finished in 1,386 ms
+Aug 15, 2018 7:31:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war
+Aug 15, 2018 7:31:19 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19:31:24.413 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:31:26.027 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:31:26.146 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Check version
+19:31:26.147 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Start schema update
+19:31:28.261 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract bundled plugins...
+19:31:28.300 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract to /home/vagrant/.gitbucket/plugins/gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+19:31:28.421 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Initialize plugins
+19:31:28.530 [localhost-startStop-1] INFO  gitbucket.core.plugin.PluginRegistry - Initialize gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+19:31:29.273 [Thread-3] INFO  g.core.plugin.PluginWatchThread - Start PluginWatchThread: /home/vagrant/.gitbucket/plugins
+19:31:29.434 [localhost-startStop-1] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+19:31:29.434 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+19:31:29.455 [localhost-startStop-1] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+19:31:29.458 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'QuartzScheduler~job' with instanceId 'job'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+19:31:29.459 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler 'QuartzScheduler~job
+19:31:29.459 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler version: 2.2.3
+19:31:29.462 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler QuartzScheduler~job_$_job started.
+[INFO] [08/15/2018 19:31:29.533] [localhost-startStop-1] [[QuartzScheduler~job]] Setting up scheduled job 'Daily', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@131fe908'
+19:31:29.594 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - The cycle class name from the config: ScalatraBootstrap
+19:31:29.596 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - Initializing life cycle class: ScalatraBootstrap
+Aug 15, 2018 7:31:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war has finished in 28,911 ms
+Aug 15, 2018 7:31:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war
+Aug 15, 2018 7:31:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war has finished in 169 ms
+Aug 15, 2018 7:31:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Aug 15, 2018 7:31:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 107 ms
+Aug 15, 2018 7:31:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Aug 15, 2018 7:31:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 104 ms
+Aug 15, 2018 7:31:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Aug 15, 2018 7:31:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 1,768 ms
+Aug 15, 2018 7:31:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Aug 15, 2018 7:31:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 639 ms
+Aug 15, 2018 7:31:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Aug 15, 2018 7:31:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 224 ms
+Aug 15, 2018 7:31:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 15, 2018 7:31:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 15, 2018 7:31:35 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 34074 ms
+Aug 15, 2018 7:35:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Aug 15, 2018 7:35:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 184 ms
+Aug 15, 2018 7:36:04 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/mywar]
+Aug 15, 2018 7:36:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Aug 15, 2018 7:36:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 161 ms
+Aug 16, 2018 12:27:35 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/mywar]
+Aug 16, 2018 12:27:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Aug 16, 2018 12:27:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 145 ms
+Sep 06, 2018 8:05:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.11.6.el7.x86_64
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Sep 06, 2018 8:05:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Sep 06, 2018 8:05:14 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 06, 2018 8:05:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 06, 2018 8:05:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 06, 2018 8:05:18 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 14825 ms
+Sep 06, 2018 8:05:19 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 06, 2018 8:05:19 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Sep 06, 2018 8:05:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war
+Sep 06, 2018 8:05:56 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,837] milliseconds.
+Sep 06, 2018 8:05:58 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war has finished in 38,493 ms
+Sep 06, 2018 8:05:58 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war
+Sep 06, 2018 8:07:47 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:08:40.837 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+08:08:49.512 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+08:08:50.373 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Check version
+08:08:50.382 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Start schema update
+08:09:01.020 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract bundled plugins...
+08:09:01.202 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract to /home/vagrant/.gitbucket/plugins/gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+08:09:01.632 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Initialize plugins
+08:09:03.061 [localhost-startStop-1] INFO  gitbucket.core.plugin.PluginRegistry - Initialize gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+08:09:06.416 [Thread-3] INFO  g.core.plugin.PluginWatchThread - Start PluginWatchThread: /home/vagrant/.gitbucket/plugins
+08:09:06.438 [localhost-startStop-1] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+08:09:06.439 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+08:09:06.447 [localhost-startStop-1] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+08:09:06.450 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'QuartzScheduler~job' with instanceId 'job'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+08:09:06.457 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler 'QuartzScheduler~job
+08:09:06.457 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler version: 2.2.3
+08:09:06.460 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler QuartzScheduler~job_$_job started.
+[INFO] [09/06/2018 08:09:06.529] [localhost-startStop-1] [[QuartzScheduler~job]] Setting up scheduled job 'Daily', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@4ff1c231'
+08:09:06.723 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - The cycle class name from the config: ScalatraBootstrap
+08:09:06.792 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - Initializing life cycle class: ScalatraBootstrap
+Sep 06, 2018 8:09:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war has finished in 204,146 ms
+Sep 06, 2018 8:09:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war
+Sep 06, 2018 8:09:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war has finished in 1,680 ms
+Sep 06, 2018 8:09:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Sep 06, 2018 8:09:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 348 ms
+Sep 06, 2018 8:09:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Sep 06, 2018 8:09:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 250 ms
+Sep 06, 2018 8:09:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Sep 06, 2018 8:09:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 216 ms
+Sep 06, 2018 8:09:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Sep 06, 2018 8:09:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 11,844 ms
+Sep 06, 2018 8:09:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Sep 06, 2018 8:09:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 4,552 ms
+Sep 06, 2018 8:09:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Sep 06, 2018 8:09:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 638 ms
+Sep 06, 2018 8:09:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 06, 2018 8:09:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 06, 2018 8:09:43 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 264778 ms
+08:15:26.773 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m20s205ms984µs296ns).
+08:16:11.270 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m957ms961µs141ns).
+Sep 06, 2018 8:21:15 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/mywar]
+Sep 06, 2018 8:21:17 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Sep 06, 2018 8:21:31 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [412] milliseconds.
+Sep 06, 2018 8:21:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 14,553 ms
+Sep 06, 2018 8:21:54 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/mywar]
+Sep 06, 2018 8:21:54 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Sep 06, 2018 8:21:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 3,426 ms
+Oct 31, 2018 9:08:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.11.6.el7.x86_64
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Oct 31, 2018 9:08:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Oct 31, 2018 9:08:49 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 31, 2018 9:08:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 31, 2018 9:08:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 31, 2018 9:08:55 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 36575 ms
+Oct 31, 2018 9:08:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 31, 2018 9:08:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Oct 31, 2018 9:08:56 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war
+Oct 31, 2018 9:09:05 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [669] milliseconds.
+Oct 31, 2018 9:09:05 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war has finished in 8,856 ms
+Oct 31, 2018 9:09:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war
+Oct 31, 2018 9:10:41 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:11:39.441 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:11:49.329 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:11:49.929 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Check version
+09:11:49.930 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Start schema update
+09:12:14.995 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract bundled plugins...
+09:12:15.482 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Extract to /home/vagrant/.gitbucket/plugins/gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+09:12:16.348 [localhost-startStop-1] INFO  g.core.servlet.InitializeListener - Initialize plugins
+09:12:19.193 [localhost-startStop-1] INFO  gitbucket.core.plugin.PluginRegistry - Initialize gitbucket-notifications-plugin-gitbucket_4.27.0-1.6.0.jar
+09:12:28.329 [Thread-3] INFO  g.core.plugin.PluginWatchThread - Start PluginWatchThread: /home/vagrant/.gitbucket/plugins
+09:12:30.317 [localhost-startStop-1] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+09:12:30.318 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.3 created.
+09:12:30.422 [localhost-startStop-1] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+09:12:30.450 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'QuartzScheduler~job' with instanceId 'job'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+09:12:30.450 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler 'QuartzScheduler~job
+09:12:30.450 [localhost-startStop-1] INFO  o.quartz.impl.DirectSchedulerFactory - Quartz scheduler version: 2.2.3
+09:12:30.615 [localhost-startStop-1] INFO  org.quartz.core.QuartzScheduler - Scheduler QuartzScheduler~job_$_job started.
+[INFO] [10/31/2018 09:12:31.868] [localhost-startStop-1] [[QuartzScheduler~job]] Setting up scheduled job 'Daily', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@680f3570'
+09:12:32.974 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - The cycle class name from the config: ScalatraBootstrap
+09:12:33.061 [localhost-startStop-1] INFO  o.scalatra.servlet.ScalatraListener - Initializing life cycle class: ScalatraBootstrap
+09:13:19.233 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s767ms311µs269ns).
+Oct 31, 2018 9:13:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war has finished in 274,230 ms
+Oct 31, 2018 9:13:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war
+Oct 31, 2018 9:13:43 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war has finished in 2,893 ms
+Oct 31, 2018 9:13:43 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Oct 31, 2018 9:13:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 1,380 ms
+Oct 31, 2018 9:13:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Oct 31, 2018 9:13:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 436 ms
+Oct 31, 2018 9:13:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Oct 31, 2018 9:13:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 747 ms
+Oct 31, 2018 9:13:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Oct 31, 2018 9:13:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 6,107 ms
+Oct 31, 2018 9:13:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Oct 31, 2018 9:13:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 6,536 ms
+Oct 31, 2018 9:13:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Oct 31, 2018 9:13:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 904 ms
+Oct 31, 2018 9:14:00 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 31, 2018 9:14:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 31, 2018 9:14:02 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 306736 ms
+Oct 31, 2018 9:17:10 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/mywar]
+Oct 31, 2018 9:17:11 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Oct 31, 2018 9:17:11 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 929 ms
+Oct 31, 2018 9:19:16 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/mywar]
+Oct 31, 2018 9:19:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Oct 31, 2018 9:19:36 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 20,163 ms

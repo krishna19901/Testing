@@ -1,0 +1,88 @@
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2018 17:05:37 UTC
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.90.0
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-693.21.1.el7.x86_64
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64/jre
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-7.0.90/conf/logging.properties
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-7.0.90
+Aug 14, 2018 3:36:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-7.0.90/temp
+Aug 14, 2018 3:36:05 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 14, 2018 3:36:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 14, 2018 3:36:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 14, 2018 3:36:06 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2978 ms
+Aug 14, 2018 3:36:06 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 14, 2018 3:36:06 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.90
+Aug 14, 2018 3:36:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war
+Aug 14, 2018 3:36:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/CounterWebApp.war has finished in 1,369 ms
+Aug 14, 2018 3:36:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war
+Aug 14, 2018 3:36:26 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/gitbucket.war has finished in 32,390 ms
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/ROOT has finished in 268 ms
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/docs has finished in 131 ms
+Aug 14, 2018 3:36:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/examples has finished in 1,317 ms
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/host-manager has finished in 767 ms
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager
+Aug 14, 2018 3:36:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/apache-tomcat-7.0.90/webapps/manager has finished in 153 ms
+Aug 14, 2018 3:36:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 14, 2018 3:36:43 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 14, 2018 3:36:43 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 37141 ms
+Aug 14, 2018 7:46:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war
+Aug 14, 2018 7:46:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/samplewar.war.war has finished in 839 ms

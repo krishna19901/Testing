@@ -1,0 +1,6 @@
+Aug 16, 2018 12:27:35 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/mywar]
+Aug 16, 2018 12:27:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Aug 16, 2018 12:27:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war has finished in 145 ms

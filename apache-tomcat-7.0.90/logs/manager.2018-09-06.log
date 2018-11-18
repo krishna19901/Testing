@@ -1,0 +1,32 @@
+Sep 06, 2018 8:12:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Sep 06, 2018 8:12:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Sep 06, 2018 8:16:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Sep 06, 2018 8:17:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Sep 06, 2018 8:21:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Sep 06, 2018 8:21:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Sep 06, 2018 8:21:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Sep 06, 2018 8:21:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Sep 06, 2018 8:21:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/mywar'
+Sep 06, 2018 8:21:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/mywar'
+Sep 06, 2018 8:21:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war
+Sep 06, 2018 8:21:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Sep 06, 2018 8:21:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Sep 06, 2018 8:21:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/mywar'
+Sep 06, 2018 8:21:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/mywar'
+Sep 06, 2018 8:21:54 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war

@@ -1,0 +1,10 @@
+Aug 16, 2018 12:27:34 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Aug 16, 2018 12:27:34 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Aug 16, 2018 12:27:34 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/mywar'
+Aug 16, 2018 12:27:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/mywar'
+Aug 16, 2018 12:27:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/vagrant/apache-tomcat-7.0.90/webapps/mywar.war

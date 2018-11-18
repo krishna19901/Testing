@@ -1,0 +1,4 @@
+192.168.33.1 - deploy [16/Aug/2018:00:27:34 +0000] "GET //manager/text/list HTTP/1.1" 200 327
+192.168.33.1 - deploy [16/Aug/2018:00:27:34 +0000] "GET //manager/text/list HTTP/1.1" 200 327
+192.168.33.1 - deploy [16/Aug/2018:00:27:35 +0000] "GET //manager/text/undeploy?path=%2Fmywar HTTP/1.1" 200 62
+192.168.33.1 - deploy [16/Aug/2018:00:27:35 +0000] "PUT //manager/text/deploy?path=%2Fmywar HTTP/1.1" 200 60
